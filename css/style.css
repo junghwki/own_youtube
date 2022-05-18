@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'GmarketSans';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GmarketSans';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GmarketSans';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+:root {
+    /* color */
+    --black: #000000;
+    --white: #ffffff;
+    --orange: #ee9343;
+    --red: #ff0000;
+    --tp-black: rgba(0, 0, 0, 0.2);
+    --font-family: 'GmarketSans';
+    --h0: 2.5rem;
+    --h1: 2rem;
+    --h2: 1.5rem;
+    --h3: 1.1875rem;
+    --h4: 1rem;
+    --h5: 0.8125rem;
+    --h6: 0.6875rem;
+}
+
+img {
+    -webkit-user-drag: none;
+    vertical-align: top;
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    user-select: none;
+    -webkit-user-select: none;
+    font-family: var(--font-family);
+    color: var(--white);
+    overflow-x: hidden;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:active {
+    color: white;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: auto;
+    padding: 1rem;
+}
+
+main {
+    padding: 0 1%;
+    margin: auto;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 1rem;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}

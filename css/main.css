@@ -1,0 +1,33 @@
+
+main .item {
+	border-radius: 5px;
+	box-shadow: 1px 1px 9px 0px rgba(0, 0, 0, 0.13);
+	position: relative;
+	margin: 2%;
+	width: 28%;
+	height: auto;
+	overflow: hidden;
+	/* cursor: pointer; */
+}
+
+main .item p {
+	width: 100%;
+	height: 100%;
+	display: none;
+	justify-content: center;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	font-size: var(--h4);
+	background-color: var(--tp-black);
+	padding: 1rem;
+	text-align: center;
+}
+
+main .item:hover p {
+	display: block;
+}
+
+.item img {
+	width: 100%;
+}
