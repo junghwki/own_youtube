@@ -1,0 +1,40 @@
+.items {
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.items .item {
+	border-radius: 5px;
+	box-shadow: 1px 1px 9px 0px rgba(0, 0, 0, 0.13);
+	position: relative;
+	margin: 2%;
+	width: 28%;
+	height: auto;
+	overflow: hidden;
+	/* cursor: pointer; */
+}
+
+.items .item .name {
+	width: 100%;
+	/* height: 100%; */
+	justify-content: center;
+	font-size: var(--h3);
+	background-color: var(--tp-black);
+	padding: 1rem;
+	text-align: center;
+}
+
+.items .item .description {
+	width: 100%;
+	/* height: 100%; */
+	white-space: normal;
+	font-size: var(--h5);
+	padding: 1rem;
+	background-color: var(--black);
+	text-align: center;
+}
+
+.items .item img {
+	width: 100%;
+}
