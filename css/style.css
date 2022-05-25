@@ -20,12 +20,14 @@
 }
 
 :root {
+    --font-color: #000000;
+    --bg-color: #ffffff;
+    --font-family: 'GmarketSans';
     /* color */
     --black: #000000;
     --white: #ffffff;
     --red: #ff0000;
     --tp-black: rgba(0, 0, 0, 0.2);
-    --font-family: 'GmarketSans';
     --h0: 2.5rem;
     --h1: 2rem;
     --h2: 1.5rem;
@@ -45,28 +47,29 @@ img {
 body {
     user-select: none;
     -webkit-user-select: none;
+    background-color: var(--bg-color);
     font-family: var(--font-family);
-    color: var(--white);
+    color: var(--font-color);
     overflow-x: hidden;
 }
 
 a:link {
-    color: white;
+    color: var(--font-color);
     text-decoration: none;
 }
 
 a:active {
-    color: white;
+    color: var(--font-color);
     text-decoration: none;
 }
 
 a:visited {
-    color: white;
+    color: var(--font-color);
     text-decoration: none;
 }
 
 a:hover {
-    color: white;
+    color: var(--font-color);
     text-decoration: none;
 }
 
