@@ -1,0 +1,51 @@
+.detail {
+	margin: auto;
+	display: flex;
+	width: 1000px;
+	flex-wrap: wrap;
+}
+
+.detail .thumbnail {
+	border-radius: 5px;
+	box-shadow: 1px 1px 9px 0px rgba(0, 0, 0, 0.13);
+	position: relative;
+	margin: 15px;
+	width: 1000px;
+	height: auto;
+	overflow: hidden;
+	/* cursor: pointer; */
+}
+
+.detail .title {
+	padding: 3px;
+	white-space: normal;
+	font-size: var(--h3);
+	text-align: center;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.detail .description {
+	/* display: -webkit-box;
+	-webkit-line-clamp: 4;
+	-webkit-box-orient: vertical;
+	white-space: normal;
+	overflow: hidden;
+	text-overflow: ellipsis; */
+	font-size: var(--h5);
+	text-align: center;
+}
+
+.text {
+	display: -webkit-box;
+	-webkit-line-clamp: 4;
+	-webkit-box-orient: vertical;
+	white-space: normal;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.detail .more-text {
+	background-color: var(--tp-black);
+	float: right;
+}

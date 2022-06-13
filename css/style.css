@@ -78,7 +78,7 @@ header {
     align-items: center;
     width: 100%;
     margin: auto;
-    padding: 1rem;
+    /* padding: 1rem; */
 }
 
 main {
@@ -90,7 +90,7 @@ footer {
     display: flex;
     flex-direction: column;
     width: 100%;
-    padding: 1rem;
+    /* padding: 1rem; */
 }
 
 .hidden {

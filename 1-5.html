@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>42 youtube</title>
+	<link rel="stylesheet" href="/css/reset.css">
+	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="/css/1-5.css">
+</head>
+
+<body>
+	<header>
+	</header>
+	<main>
+		<div class="detail">
+			<div class="thumbnail">
+				<img src="/img/img.jpg" alt="thumbnail">
+				<p class="title">제목</p>
+				<p class="description text">동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리 나라만세 무궁화 삼천리 화려강산 대한사람 대한으로 길이 보전하세 남산위에 저 소나무 철갑을 두른듯 바람서리 불변함은 우리 기상일세 무궁화 삼천리 화려강산 대한사람 대한으로 길이 보전하세 가을하늘 공활한데 높고 밝은달은 우리가슴 일편단심일세 무궁화 삼천리 화려강산 대한사람 대한으로 길이 보전하세 이기상과 이맘으로 충성을 다하여 괴로우나 즐거우나 나라사랑하세 무궁화 삼천리 화려강산 대한사람 대한으로 길이 보전하세 동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리 나라만세 무궁화 삼천리 화려강산 대한사람 대한으로 길이 보전하세 남산위에 저 소나무 철갑을 두른듯 바람서리 불변함은 우리 기상일세 무궁화 삼천리 화려강산 대한사람 대한으로 길이 보전하세 가을하늘 공활한데 높고 밝은달은 우리가슴 일편단심일세 무궁화 삼천리 화려강산 대한사람 대한으로 길이 보전하세 이기상과 이맘으로 충성을 다하여 괴로우나 즐거우나 나라사랑하세 무궁화 삼천리 화려강산 대한사람 대한으로 길이 보전하세</p>
+				<a href="#" class="more-text" onclick="moreText">더보기</p>
+			</div>
+		</div>
+	</main>
+	<footer>
+	</footer>
+</body>
+<script type="text/javascript">
+	const moreBtn = document.getElementsByClassName("more-text")[0];
+	const description = document.getElementsByClassName("description")[0];
+
+	moreBtn.addEventListener("click", moreText);
+
+	function moreText() {
+	description.classList.remove("text");
+	moreBtn.classList.add("hidden");
+}
+</script>
+</html>

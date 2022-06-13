@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>42 youtube</title>
+	<link rel="stylesheet" href="/css/reset.css">
+	<link rel="stylesheet" href="/css/style.css">
+	<link rel="stylesheet" href="/css/2-1.css">
+</head>
+
+<body>
+	<header>
+	</header>
+	<div class="page">
+		<div class="left">
+			<div class="thumbnail">
+				<!-- <img src="img/img.jpg"> -->
+				<iframe class="media" width="900" height="500" src="https://www.youtube.com/embed/LOuy_4lrauM"
+					title="YouTube video player" frameborder="0" name="frame_target"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+					allowfullscreen></iframe>
+			</div>
+			<div class="description">
+				<p class="title">제목</p>
+				<p>
+					동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리 나라만세 무궁화 삼천리 화려강산 대한사람 대한으로 길이 보전하세
+					남산위에 저소나무 철갑을 두른듯 바람서리 불변함은 우리 기상일세 무궁화 삼천리 화려강산 대한사람 대한으로 길이 보전하세
+					가을하늘 공활한데 높고 구름없이 밝은달은 우리가슴 일편단심 일세 무궁화 삼천리 화려강산 대한사람 대한으로 길이 보전하세
+					이기상과 이맘으로 충성을 다하여 괴로우나 즐거우나 나라 사랑하세 무궁화 삼천리 화려강산 대한사람 대한으로 길이 보전하세
+					동해물과 백두산이 마르고 닳도록 하느님이 보우하사 우리 나라만세 무궁화 삼천리 화려강산 대한사람 대한으로 길이 보전하세
+					남산위에 저소나무 철갑을 두른듯 바람서리 불변함은 우리 기상일세 무궁화 삼천리 화려강산 대한사람 대한으로 길이 보전하세
+					가을하늘 공활한데 높고 구름없이 밝은달은 우리가슴 일편단심 일세 무궁화 삼천리 화려강산 대한사람 대한으로 길이 보전하세
+					이기상과 이맘으로 충성을 다하여 괴로우나 즐거우나 나라 사랑하세 무궁화 삼천리 화려강산 대한사람 대한으로 길이 보전하세
+				</p>
+			</div>
+		</div>
+		<div class="right">
+			<ul class="playlist">
+				<li onclick="play(1)">1번 동영상</li>
+				<li onclick="play(2)">2번 동영상</li>
+				<li onclick="play(3)">3번 동영상</li>
+				<li onclick="play(4)">4번 동영상</li>
+				<li onclick="play(5)">5번 동영상</li>
+				<li onclick="play(6)">6번 동영상</li>
+			</ul>
+		</div>
+	</div>
+	<footer>
+	</footer>
+</body>
+<script type="text/javascript">
+	const thumbnail = document.getElementsByClassName("thumbnail")[0];
+
+	let playlist = [];
+	playlist[0] = "https://www.youtube.com/embed/LOuy_4lrauM";
+	playlist[1] = "https://www.youtube.com/embed/P3OKINQnpuk";
+
+	function play(a) {
+		a = a - 1;
+	}
+</script>
+
+</html>

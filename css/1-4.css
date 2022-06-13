@@ -55,17 +55,20 @@
 	position: relative;
 	margin: 15px;
 	width: 1000px;
-	height: auto;
+	/* height: auto; */
 	overflow: hidden;
 	/* cursor: pointer; */
 }
 
 .detail .description {
-	height: 6rem;
-	white-space: normal;
+	/* height: 6rem; */
+	display: -webkit-box;
+	-webkit-line-clamp: 4;
+	-webkit-box-orient: vertical;
 	font-size: var(--h5);
 	background-color: var(--tp-black);
 	text-align: center;
+	white-space: normal;
 	overflow: hidden;
 	text-overflow: ellipsis;
 }
